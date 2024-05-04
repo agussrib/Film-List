@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABD Movie</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/icon abd.png" alt="Logo" class="d-inline-block align-text-top">
+            ABD Movie
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Popular</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Tv Show</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control search-form" type="search" placeholder="Search" aria-label="Search" width="156" height="30">
+              <button class="btn" type="submit"><img src="./assets/search.png" alt="search" width="26" height="25"></button>
+            </form>
+          </div>
+        </div>
+      </nav>    
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide banner">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/antmant banner.jpg" class="d-block w-100 md-img" alt="...">
+                <div class="back-img">
+                    <img src="./assets/antmant banner.jpg" alt="">
+                  </div>
+                  <div class="front-img">
+                    <img src="./assets/antmant poster.jpg" alt="">
+                  </div>
+                  <div class="text-banner">
+                    <h2>Ant-Man and the Wasp: Quantumania</h2>
+                    <h4>Overview</h4>
+                    <p>Super-Hero partners Scott Lang and Hope van Dyne, along with Hope’s
+                      parents Janet van Dyne and Hank Pym, and Scott’s daugther Cassie Lang
+                      find themeselves exploring the Quantum Realm, interacting with strange
+                      new creatures and embarking on an advanture that will push them
+                      beyond the limits of what they thought possible.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/johnwickbanner.jpg" class="d-block w-100 md-img" alt="...">
+                <div class="back-img">
+                    <img src="./assets/johnwickbanner.jpg" alt="">
+                  </div>
+                  <div class="front-img">
+                    <img src="./assets/john wick 4.jpg" alt="">
+                  </div>
+                  <div class="text-banner">
+                    <h2>John Wick: Chapter 4</h2>
+                    <h4>Overview</h4>
+                    <p>With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/beerbanner.jpg" class="d-block w-100 md-img" alt="...">
+                <div class="back-img">
+                    <img src="./assets/beerbanner.jpg" alt="">
+                  </div>
+                  <div class="front-img">
+                    <img src="./assets/beerposteer.jpg" alt="">
+                  </div>
+                  <div class="text-banner">
+                    <h2>Cocaine Bear</h2>
+                    <h4>Overview</h4>
+                    <p>Inspired by a true story, an oddball group of cops, criminals, tourists and teens converge in a Georgia forest where a 500-pound black bear goes on a murderous rampage after unintentionally ingesting cocaine.</p>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    
+    <section id="moviecard" class="moviecard">
+        <div class="container" id="trending">
+            <div class="title-card mb-3 mt-2">
+                <h2>Trending</h2>
+            </div>
+            <div class="container d-flex" id="trending-card-container">
+            </div>
+        </div>
+
+        <div class="container" id="popular">
+            <div class="title-card mb-3 mt-2">
+                <h2>Popular</h2>
+            </div>
+            <div class="container d-flex" id="popular-card-container">
+            </div>
+        </div>
+
+        <div class="container" id="tv-show">
+            <div class="title-card mb-3 mt-2">
+                <h2>Tv Show</h2>
+            </div>
+            <div class="container d-flex" id="tvshow-card-container">
+            </div>
+        </div>
+
+        <div class="container" id="search-result">
+          <div class="title-card mb-3 mt-2">
+              <h2>Search Result By Title</h2>
+          </div>
+          <div class="container d-flex" id="search-card-container">
+          </div>
+      </div>
+
+    </section>
+
+    <footer-element></footer-element>
+  
+  </body>
+</html>
